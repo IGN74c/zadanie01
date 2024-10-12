@@ -1,0 +1,66 @@
+@import 'null', 'header';
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px 12px;
+    background: #fadede;
+
+    &__title {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    &__form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__input {
+        border-radius: 28px;
+        padding: 0px 16px;
+        width: 600px;
+        height: 56px;
+        background: #fff;
+        border: none;
+    }
+
+    &__check {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    &__checkbox {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    &__button {
+        border-radius: 28px;
+        padding: 0px 16px;
+        width: 600px;
+        height: 56px;
+        background: #fff;
+        border: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    &__area1 {
+        border-radius: 28px;
+        border: none;
+        padding: 16px;
+        width: 600px;
+        height: 226px;
+        resize: vertical;
+    }
+}
